@@ -24,7 +24,6 @@ order: 4
     <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js" ></script>
       <script>
 
-      //var local = ciudades[4];
       var proj900913 = 'EPSG:900913';
       var proj4326 = 'EPSG:4326';
       var map2 = new ol.Map({
@@ -40,11 +39,13 @@ order: 4
               target: 'footer-map',
               controls: ol.control.defaults({
                 rotate: false
+
               }),
               view: new ol.View({
                 projection: proj900913,
                 center: ol.proj.transform([-68.189341,-16.481129], proj4326, proj900913),
                 zoom: 17
               })
+
             });
       </script>
