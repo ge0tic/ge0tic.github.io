@@ -39,13 +39,16 @@ order: 4
               target: 'footer-map',
               controls: ol.control.defaults({
                 rotate: false
-
               }),
+              interactions: ol.interaction.defaults({mouseWheelZoom: false}),
               view: new ol.View({
                 projection: proj900913,
                 center: ol.proj.transform([-68.189341,-16.481129], proj4326, proj900913),
                 zoom: 17
               })
+              
 
             });
+      //var mouseWheelZoom = new ol.MouseWheelZoom();
+      //mouseWheelZoom.setActive(false);
       </script>
