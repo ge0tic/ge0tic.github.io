@@ -1,0 +1,26 @@
+<div class='row'>
+
+{% for image in site.static_files %}
+  {% if image.path contains 'assets/images/SergioAlmaraz' %}
+    {% assign remainder = forloop.index | modulo: 2 %}
+      {% if forloop.first == true %}
+      {{ row }}<div class="3u 12u$(mobile)">
+      {% elsif remainder == 0 %}
+      </div>
+      <div class="3u 12u$(mobile)">
+      {% endif %} 
+        <div class="item">
+          <a href="{{ image.path }}" class="image fit">
+          	<img src="{{ image.path }}">
+            
+          </a>
+          <header>
+            <h3>{{ image.basename }}</h3>
+          </header>
+        </div>
+      {% if forloop.last == true %}
+      </div>
+      {% endif %}
+  {% endif %}
+{% endfor %} 
+</div>
