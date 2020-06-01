@@ -11,4 +11,4 @@ En estos tiempo se trabajo para mejorar el sitio web del proyecto, es así que a
 
 Además ahora se pone a disposición un espacio "Blog" para publicar información relacionada que ayude tanto a estudiantes como a profesores.
 
-Sobre la coyuntura actual, esperamos que los próximos días sean mejores para todas las familias.
+Sobre la coyuntura actual, esperamos que los próximos días sean mejores para todas las familias del mundo. Pongamos nuestro granito de arena siguiendo los protocolos de bioseguridad establecidos en cada región.
