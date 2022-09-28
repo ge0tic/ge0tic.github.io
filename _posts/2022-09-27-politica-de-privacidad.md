@@ -23,4 +23,3 @@ ge0tic no presenta ningún comportamiento engañoso, no tiene enlaces a sitios d
 ge0tic no utiliza información falsa, la mayor parte de información que se muestra fueron utilizados de centros de datos abiertos del Estado Plurinacional de Bolivia, y se muestra y especifica que es información REFERENCIAL y su uso es didáctico educativo.
 
 
-
