@@ -6,8 +6,6 @@ icon: fa-lightbulb
 icon-style: regular
 ---
 
-# Política de privacidad
-
 ## Datos de usuario
 ge0tic no utiliza ni solicita algún tipo de información de usuario, es una aplicación sencilla y no necesita datos de usuarios en esta versión.
 
