@@ -1,3 +1,10 @@
+---
+title: Política de privacidad
+author: Daniel Quisbert
+layout: post
+icon: fa-lightbulb
+icon-style: regular
+---
 # Política de privacidad
 
 ## Datos de usuario
