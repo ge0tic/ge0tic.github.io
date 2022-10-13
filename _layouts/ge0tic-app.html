@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _sections = site.sections | sort: 'order' -%}
+
 {%- include header.html scrolly_nav=_posts -%}
 <!-- Main -->
 <div id="main">
@@ -9,10 +9,15 @@ layout: default
 		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
 	
-	<p>
-		contenido de relleno
-	</p>
-	<p>
-		<a href="https://ge0tic.github.io/ge0tic-app/">Haga click aquí para ver ge0tic Web</a>
-	</p>
+	
+	
+	<a href="https://ge0tic.github.io/ge0tic-app/" class="image fit">
+		<img src="/assets/images/ge0tic-app.png"></a>
+		
+		<header>
+			<h3>ge0tic App web</h3>
+		</header>
+		<p style="text-align: center;">
+			<a href="https://ge0tic.github.io/ge0tic-app/">Haga click aquí para ver ge0tic App Web</a>
+		</p>
 </div>
