@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{%- include header.html scrolly_nav=_posts -%}
+<!-- Main -->
+<div id="main">
+	{%- if page.content != "" -%}
+		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
+	{%- endif -%}
+	
+	<p>
+		contenido de relleno
+	</p>
+	<p>
+		<a href="https://ge0tic.github.io/ge0tic-app/">Haga click aquí para ver ge0tic Web</a>
+	</p>
+</div>
